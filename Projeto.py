@@ -7,7 +7,7 @@ def ler_nota(mensagem):
          nota = float(input(mensagem))
          if 0 <= nota <= 10:
             return nota
-      else:
+    else:
         print("Nota inválida! Digite um valor entre 0 e 10.")
 
 
